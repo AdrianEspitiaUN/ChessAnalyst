@@ -31,6 +31,12 @@ Crear una cuenta en lichess.org y crear un token de la siguiente manera
 3. Cambiar el token en la clase Model/LichessAPI.java por el token generado
    ![image](https://github.com/user-attachments/assets/0149b1a3-0676-41f6-9836-df511de7f737)
 
+## Ruta del archivo eco.pgn
+En la clase Model/OpeningHistogram.java en la linea 31 cambiar la ruta del archivo eco.pgn el cual se encuentra en el repositorio en OneDrive\Documentos\NetBeansProjects\ChessAnalysisApp1\src\resources
+
+![image](https://github.com/user-attachments/assets/6438bd71-1742-479c-b5b4-c7551b8b26c0)
+
+
 # Manual de Usuario
 
 Autenticación del usuario: El usuario ve como primer pantalla la vista de autenticación, donde deberá hacer los siguiente:
