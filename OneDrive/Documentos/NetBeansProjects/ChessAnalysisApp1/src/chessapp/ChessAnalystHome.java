@@ -721,7 +721,7 @@ public class ChessAnalystHome extends javax.swing.JFrame {
 
     private void loadPgnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loadPgnActionPerformed
         int returnValue = pgnFileChooser.showOpenDialog(this);
-        String pathToPgn = "C:\\Users\\adria_6\\OneDrive\\Documentos\\NetBeansProjects\\ChessAnalysis\\src\\main\\resources\\chess_eco_2021-12-03.pgn";
+        String pathToPgn = "";
         if (returnValue == JFileChooser.APPROVE_OPTION) {
             File selectedFile = pgnFileChooser.getSelectedFile();
             pathToPgn = selectedFile.getAbsolutePath();
