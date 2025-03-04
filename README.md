@@ -5,12 +5,12 @@
 Modificar las rutas del archivo stockfish-windows-x86-64.exe en las siguientes clases:
 
 ### Stockfish
-En la linea 22 reemplazar la ruta de acceso al archivo de stockfish, el cual se encuentra en la siguiente ruta del repositorio:\
+En la clase Model/Stockfish.java en la linea 22 reemplazar la ruta de acceso al archivo de stockfish, el cual se encuentra en la siguiente ruta del repositorio:\
 OneDrive\Documentos\NetBeansProjects\ChessAnalysisApp1\src\resources\stockfish
 ![ruta stockfish](https://github.com/user-attachments/assets/110a61f9-22f6-4f2e-a5ce-676f7fa56178)
 
 ### GameAnalysis
-En la linea 47 realizar el mismo procedimiento anterior 
+En la clase Model/GameAnalysis en la linea 47 realizar el mismo procedimiento anterior 
 ![image](https://github.com/user-attachments/assets/9eaeadc1-dcd9-4561-91bb-8cf8286ade3b)
 
 ## Configurar FirebaseServices
@@ -18,17 +18,17 @@ Configurar la siguiente ruta relativa en la consola de la base de datos en tiemp
 /users
 ![image](https://github.com/user-attachments/assets/9e53d1b4-9dbe-442c-9d88-90d4b1af0f86)
 
-Descargar token en formato JSON para el acceso a la base de datos de Firebase y cambiar la ruta del token a la ruta del archivo descargado en la clase FirebaseServices en las lineas 37 y 46
+Descargar token en formato JSON para el acceso a la base de datos de Firebase y cambiar la ruta del token a la ruta del archivo descargado en la clase Model/FirebaseServices.java en las lineas 37 y 46
 
 ![image](https://github.com/user-attachments/assets/a582651f-344c-4ace-b8eb-feb2a14cd148)
 
 Cambiar la url de la base de datos en linea 47 del archivo anterior por la ruta de su base de datos de Firebase
 
-## Token de Lishess
+## Token de Lichess
 Crear una cuenta en lichess.org y crear un token de la siguiente manera
-1. dirigirse a esta ruta https://lichess.org/account/oauth/token
+1. Dirigirse a esta ruta https://lichess.org/account/oauth/token
 2. Dar click en generar nuevo token
-3. Cambiar el token en la clase LichessAPI por el token generado
+3. Cambiar el token en la clase Model/LichessAPI.java por el token generado
    ![image](https://github.com/user-attachments/assets/0149b1a3-0676-41f6-9836-df511de7f737)
 
 # Manual de Usuario
