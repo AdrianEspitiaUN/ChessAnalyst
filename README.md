@@ -14,7 +14,7 @@ En la clase Model/GameAnalysis en la linea 47 realizar el mismo procedimiento an
 ![image](https://github.com/user-attachments/assets/9eaeadc1-dcd9-4561-91bb-8cf8286ade3b)
 
 ## Configurar FirebaseServices
-Configurar la siguiente ruta relativa en la consola de la base de datos en tiempo real de Firebase
+Configurar la siguiente ruta relativa en la consola de la base de datos en tiempo real de Firebase:
 /users
 ![image](https://github.com/user-attachments/assets/9e53d1b4-9dbe-442c-9d88-90d4b1af0f86)
 
