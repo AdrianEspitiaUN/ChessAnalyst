@@ -67,7 +67,6 @@ public class OpeningHistogram {
             }
         }
         JFreeChart barChart = ChartFactory.createStackedBarChart("Openings you used", null, null, openingDS);
-        ChartUtils.saveChartAsPNG(new File("C:\\Users\\adria_6\\OneDrive\\Imágenes\\jfreechartOut\\barChart.png"), barChart, 1000, 400);
         chart = barChart;
     }
 
